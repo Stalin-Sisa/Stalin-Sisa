@@ -1,3 +1,6 @@
+nombre = input("¿Cual es tu nombre?")
+print("Hola" + nombre + ", vamos a empezar el juego de los Ahorcados.")
+import random
 IMAGENES_AHORCADO = ['''
 
    +---+
