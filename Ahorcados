@@ -1,6 +1,7 @@
 nombre = input("¿Cual es tu nombre?")
 print("Hola" + nombre + ", vamos a empezar el juego de los Ahorcados.")
 import random
+
 IMAGENES_AHORCADO = ['''
 
    +---+
@@ -60,7 +61,7 @@ IMAGENES_AHORCADO = ['''
       |
 =========''']
 
-words = 'hormiga babuino tejon murcielago oso castor camello gato almeja cobra pantera coyote cuervo ciervo perro burro pato aguila huron zorro rana cabra ganso halcon leon lagarto llama topo mono alce raton mula salamandra nutria buho panda loro paloma piton conejo carnero rata cuervo rinoceronte salmon foca tiburon oveja mofeta perezoso serpiente araña cigüeña cisne tigre sapo trucha pavo tortuga comadreja ballena lobo wombat cebra'.split()
+words = 'hormiga caballo mono murcielago oso'.split()
 
 
 def obtenerPalabraAlAzar(listaDePalabras):
@@ -155,3 +156,4 @@ while True:
             palabraSecreta = obtenerPalabraAlAzar(words)
         else:
             break
+
